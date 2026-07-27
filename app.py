@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from models.recommender import JobRecommender
 
 app = Flask(__name__)
-# Secret key for flash messaging sessions
+# Secret key for flash messaging session
 app.secret_key = 'job_recommender_secret_key_college_project'
 
 # Initialize the recommender engine
